@@ -1,0 +1,49 @@
+.MMM-BabyTime_ICON {
+	float: left;
+	margin-top: 16px;
+	margin-right: 20px;
+}
+
+.MMM-BabyTime_BIG_TEXT {
+	margin-top: 30px;
+	font-size: 70px;
+	display: inline-block;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.MMM-BabyTime_TODAY_DIV {
+	text-align: right;
+}
+
+.MMM-BabyTime_TODAY {
+	margin-top: 20px;
+	font-size: 35px;
+	display: inline-block;
+}
+
+.MMM-BabyTime_ROW {
+	overflow: auto;
+}
+
+.MMM-BabyTime_TODAY_TOTAL {
+	font-weight: bold;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.MMM-BabyTime_TODAY_TOTAL_DRIED_MILK {
+	font-weight: bold;
+	color: #F2B500;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.MMM-BabyTime_TODAY_TOTAL_WEANING {
+	font-weight: bold;
+	color: #3BCECD;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+/*
+.babytimeInfo {
+	float: left;
+}
+*/

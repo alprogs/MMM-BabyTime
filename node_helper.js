@@ -32,10 +32,13 @@ module.exports = NodeHelper.create({
 				console.log('[MMM-BabyTime] ext.tool log: '+ stdout);
 				var arr = stdout.split(",");
 
+
 				self.sendSocketNotification('DATA', {
 					lastFeedingTime 	: arr[0],
 					lastFeedingAmount 	: arr[1],
-					todayTotalAmount 	: arr[2]
+					todayTotalFeeding 	: arr[2],
+					todayTotalDriedMilk	: arr[3],
+					todayTotalWeaning	: arr[4],
 				});
 			});
 		}
